@@ -1,1 +1,14 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
 
+.pokemoCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  margin-top: 20px;
+
+}
